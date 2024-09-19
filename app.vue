@@ -172,6 +172,33 @@ const handleChangeTime = (e) => {
   interactions.value += 1
 }
 
+useHead({
+  title: 'Tempo do Magal - Quando eu realmente vou entrar?',
+  meta: [
+    // SEO básico
+    { name: 'description', content: 'Descubra a verdadeira conversão do tempo de espera que eu disse que ia entrar!' },
+    { name: 'keywords', content: 'tempo de espera, conversão de tempo, memes, tempo do Magal' },
+    { name: 'robots', content: 'index, follow' }, // Para SEO: permitir indexação e seguir links
+    { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+
+    // Open Graph (OG)
+    { property: 'og:title', content: 'Tempo do Magal - Quando eu realmente vou entrar?' },
+    { property: 'og:description', content: 'Converta o tempo de espera que você acha que ia entrar e veja quanto realmente demorou!' },
+    { property: 'og:image', content: 'https://w0.peakpx.com/wallpaper/327/568/HD-wallpaper-pubg-illustration-art-fan-game-work.jpg' }, // Substitua pelo URL correto
+    { property: 'og:url', content: 'https://tempo-do-magal.vercel.app/' }, // Substitua pelo seu domínio
+    { property: 'og:type', content: 'website' },
+
+    // Twitter Cards
+    { name: 'twitter:card', content: 'summary_large_image' }, // Exibe uma imagem grande no card do Twitter
+    { name: 'twitter:title', content: 'Tempo do Magal - Quando eu realmente vou entrar?' },
+    { name: 'twitter:description', content: 'Converta o tempo de espera que você acha que ia entrar e veja quanto realmente demorou!' },
+    { name: 'twitter:image', content: 'https://w0.peakpx.com/wallpaper/327/568/HD-wallpaper-pubg-illustration-art-fan-game-work.jpg' }, // Substitua pelo URL correto
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://tempo-do-magal.vercel.app/' } // Link canonical para SEO
+  ]
+});
+
 </script>
 
 <style>
